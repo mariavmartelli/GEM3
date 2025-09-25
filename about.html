@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PHOTOM</title>
+    <title>GEM3</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/flipCard.css" rel="stylesheet">
 	<link href="css/flag-icon.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a id="brand" class="navbar-brand" href="index.html"><img src="img/logo.png" class="site-header-brand-img"></a>
+                    <a id="brand" class="navbar-brand" href="index.html"><img src="img/logoGEM3.png" class="site-header-brand-img"></a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -75,19 +75,24 @@
       <div class="container">
         <div class="row">
           <div class="col-md-offset-1 col-md-10">
-            <p class="recuo">Solar energy is currently one of the main sources of clean energy and its importance has been growing up steadily in the last decades. Computational simulation of wave propagation in solar cells is crucial for the development of
-new photovoltaic devices. Modern solar cells embed complex multi-layer geometries that must be taken into account properly in numerical simulations. The new generation of parallel computers provides the necessary computational
-power to handle realistic three-dimensional wave propagation phenomena in complex multi-layer photovoltaic devices.</p>
-			<p class="recuo">Nevertheless, numerical methods must be revisited entirely to take full advantage of such new parallel facilities. The GEM3 project aims at developing, analysing and implementing innovative multiscale finite element numerical
-methods method for wave propagation models in grating media motivated by its use in the simulation of photovoltaic solar cells.</p>
-			<p class="recuo">The GEM3 project corresponds to a two-year international collaboration between universities and research laboratories from Brazil, Chile and France. Contribution of each participating institution are the following:</p>
-			   <ul>
-			     <li><strong>LNCC - National Laboratory for Scientific Computing, Brazil:</strong> The development and the numerical analysis of Multiscale Hybrid-Mixed (MHM) methods for wave models, and their numerical validations on parallel computers;</li>
-				 <li><strong>Inria, France:</strong> The development and the numerical analysis of Discontinuous Galerkin (DG) methods to be adopted as second level solvers in the MHM framework, and their numerical validations;</li>
-				 <!-- <li><strong>UDEC - Universidad de Concepciòn, Chile:</strong> To propose photovoltaic cell benchmarks used to validate numerical simulations, and a posteriori error estimators used to drive space adaptivity;</li>
-				 <li><strong>PUCV - Pontifícia Universidad Católica, Chile:</strong> The development and the numerical analysis of the MHM method for wave models, and the production of numerical comparison between the MHM method and other hybrid finite element methods, as the Hybrid-Discontinuous Galerkin (HDG) method.</li>
-			   -->
-              </ul>
+            <p class="recuo">The associate team is focussed on development of multiscale numerical methods for linear and nonlinear elliptic and parabolic PDE arising from the
+applications to surface and subsurface geophysics. Both teams have a long standing expertise in mathematical and numerical modeling of complex
+geological environments, including modeling of multi-phase non-isothermal flows in fractured and faulted reservoirs and the modeling of coupled flow
+and geomechanics processes. Their applications cover a wide range, from managing freshwater and geothermal resources to CO2 and H2 storage and
+nuclear waste storage safety assessment. In this genuine multidisciplinary field, LNCC has a well-established collaboration network that includes several
+academic institutions in Brazil, such as UFPE, UFPB, UFC, and UFSC, as well as industrial partners like PETROBRAS and TotalEnergies Brasil. Additionally.
+Team GALETS has established long-term partnerships with BRGM, ANDRA, Storengy, and IFPEN, and is actively involved in the PEPR Sous-sol, PEPR
+MathVives, and the ANR project EARTH-BEAT</p>
+			<p class="recuo">Since 2020, Frédéric Valentin has been collaborating with the French team on the JCJC ANR project Top-up, led by Konstantin Brenner, which addresses
+the numerical flood simulations in complex urban environments using multiscale and domain decomposition methods.</p>
+			<p class="recuo">The expertise of the two teams in multiscale modeling and methods is complementary. Over the past decade, LNCC has focused on the development
+and analysis of its original Mixed Hybrid Multiscale (MHM) method [B1], which has been successfully applied to various linear elliptic or parabolic
+problems, including singularly perturbed convection-reaction-diffusion [B2], elasticity [B3], Stokes-Brinkman [AraHarPozVal17], and wave propagation
+problems [LanParSchVal18]. The French team's work on multiscale discretizations began with the ANR project Top-up, led by Konstantin Brenner, which
+focuses on urban flood modeling using the Diffusive Wave model [F2, AloSanDaw08], combined with high-resolution data. For flow problems in domains
+with numerous polygonal obstacles, the team has developed a new multiscale Trefftz method and error analysis tools that provide robust estimates for
+geometry-induced singularities [F1]. Additionally, through the same ANR project, the French team has gained expertise in combining Ms methods with
+both linear and nonlinear domain decomposition [F1, F2]. </p>
           </div>
         </div>
       </div>

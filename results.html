@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GEM3 — Results</title>
+
+  <!-- Reutiliza seus estilos e fontes -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="css/grayscale.css" rel="stylesheet">
+
+  <!-- Estilos específicos e leves desta página -->
+  <link href="css/publications.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar igual à do index -->
+  <nav id="mainNav" class="navbar navbar-fixed-top">
+    <div id="header-container" class="container navbar-container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+        <a id="brand" class="navbar-brand" href="index.html">
+          <img src="img/logoGEM3.png" class="site-header-brand-img">
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="results.html" class="active">Results</a></li>
+          <li><a href="index.html#events">Events</a></li>
+          <li><a href="index.html#sponsor">Sponsors</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero no mesmo espírito do site (tipografia/cores) -->
+  <header class="sub-hero">
+    <div class="container">
+      <h1 class="brand-heading">PUBLICATIONS</h1>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal com a mesma classe/ritmo de seções -->
+  <section class="content-section">
+    <div class="container">
+
+      <!-- Abas / filtros no estilo dos seus botões -->
+      <div class="text-center" style="margin-bottom:25px">
+        <button class="btn allteam active" data-filter="article">ARTICLES</button>
+        <button class="btn allteam" data-filter="book">BOOKS</button>
+      </div>
+
+      <!-- Lista de publicações -->
+      <div id="pub-list">
+
+        <!-- CARD 1 -->
+        <article class="pub-card" data-type="article">
+          <div class="pub-thumb">
+            <img src="img/1.jpg" alt="thumbnail">
+          </div>
+
+          <div class="pub-body">
+            <h3>Multiscale Hybrid-Mixed Methods for the Stokes and Brinkman Equations — A Priori Analysis</h3>
+            <p class="meta">R. Araya, C. Harder, A.H. Poza, F. Valentin</p>
+            <p class="meta"><em>SIAM Journal on Numerical Analysis</em>, Vol. 63, No. 2, pp. 588–618, 2025</p>
+          </div>
+
+          <aside class="pub-side">
+            <span class="pub-year">2025</span>
+            <div class="pub-actions">
+              <a class="btn-icon" href="pdfs/paper1.pdf" title="Download PDF"><i class="fa fa-cloud-download"></i></a>
+              <a class="btn-icon" href="https://doi.org/xxxx" target="_blank" title="Open external link"><i class="fa fa-external-link"></i></a>
+            </div>
+          </aside>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="pub-card" data-type="article">
+          <div class="pub-thumb">
+            <img src="img/2.jpg" alt="thumbnail">
+          </div>
+          <div class="pub-body">
+            <h3>Generalizing the Multiscale Hybrid-Mixed Method for Reactive–Advective–Diffusive Equations</h3>
+            <p class="meta">R. Araya, F. Jaillet, D. Paredes, F. Valentin</p>
+            <p class="meta"><em>Computer Methods in Applied Mechanics and Engineering</em>, Vol. 428, 117089, 2024</p>
+          </div>
+          <aside class="pub-side">
+            <span class="pub-year">2024</span>
+            <div class="pub-actions">
+              <a class="btn-icon" href="pdfs/paper2.pdf" title="Download PDF"><i class="fa fa-cloud-download"></i></a>
+              <a class="btn-icon" href="https://doi.org/yyyy" target="_blank" title="Open external link"><i class="fa fa-external-link"></i></a>
+            </div>
+          </aside>
+        </article>
+
+        <!-- CARD 3 (BOOK) -->
+        <article class="pub-card" data-type="book">
+          <div class="pub-thumb">
+            <img src="img/3.jpg" alt="thumbnail">
+          </div>
+          <div class="pub-body">
+            <h3>Multiscale Methods in Geophysical Modeling</h3>
+            <p class="meta">A. Author, B. Author, F. Valentin (eds.)</p>
+            <p class="meta">Springer, 2023</p>
+          </div>
+          <aside class="pub-side">
+            <span class="pub-year">2023</span>
+            <div class="pub-actions">
+              <a class="btn-icon" href="pdfs/book1-sample.pdf" title="Sample / PDF"><i class="fa fa-cloud-download"></i></a>
+              <a class="btn-icon" href="#" target="_blank" title="Open external link"><i class="fa fa-external-link"></i></a>
+            </div>
+          </aside>
+        </article>
+
+        <!-- adicione mais <article class="pub-card" data-type="article|book"> ... -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer igual ao do site, se quiser, você pode copiar o bloco do index -->
+
+  <!-- Scripts -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/publications.js"></script>
+</body>
+</html>
